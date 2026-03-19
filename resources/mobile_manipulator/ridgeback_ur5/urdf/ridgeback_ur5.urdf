@@ -180,7 +180,9 @@
     <collision>
       <origin xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/base/body-collision.stl"/>
+          <!-- <mesh filename="/home/xiaoyu/demo01_ocs2_ws/src/ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/base/body.stl"/> -->
+        <mesh filename="file:///home/xiaoyu/demo01_ocs2_ws/src/ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/base/body.stl"/> 
+        <!-- <mesh filename="package://ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/base/body-collision.stl"/> -->
       </geometry>
     </collision>
     <inertial>
@@ -289,7 +291,8 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/base/top.stl"/>
+        <mesh filename="file:///home/xiaoyu/demo01_ocs2_ws/src/ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/base/top.stl"/>
+        <!-- <mesh filename="package://ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/base/top.stl"/> -->
       </geometry>
     </collision>
   </link>
@@ -395,7 +398,9 @@
     <collision>
       <origin rpy="0 0 3.141592653589793" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5/collision/base.stl"/>
+        <!-- <mesh filename="package://ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5/collision/base.stl"/> -->
+        <mesh filename="file:///home/xiaoyu/demo01_ocs2_ws/src/ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5/collision/base.stl"/>
+
       </geometry>
     </collision>
     <inertial>
@@ -417,7 +422,8 @@
     <collision>
       <origin rpy="0 0 3.141592653589793" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5/collision/shoulder.stl"/>
+        <!-- <mesh filename="package://ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5/collision/shoulder.stl"/> -->
+        <mesh filename="file:///home/xiaoyu/demo01_ocs2_ws/src/ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5/collision/shoulder.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -439,7 +445,8 @@
     <collision>
       <origin rpy="1.5707963267948966 0 -1.5707963267948966" xyz="0 0 0.13585"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5/collision/upperarm.stl"/>
+     <!-- <mesh filename="package://ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5/collision/upperarm.stl"/> -->
+        <mesh filename="file:///home/xiaoyu/demo01_ocs2_ws/src/ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5/collision/upperarm.stl"/>  
       </geometry>
     </collision>
     <inertial>
@@ -461,7 +468,8 @@
     <collision>
       <origin rpy="1.5707963267948966 0 -1.5707963267948966" xyz="0 0 0.0165"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5/collision/forearm.stl"/>
+        <!-- <mesh filename="package://ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5/collision/forearm.stl"/> -->
+        <mesh filename="file:///home/xiaoyu/demo01_ocs2_ws/src/ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5/collision/forearm.stl"/> 
       </geometry>
     </collision>
     <inertial>
@@ -484,7 +492,8 @@
     <collision>
       <origin rpy="1.5707963267948966 0 0" xyz="0 0 -0.093"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5/collision/wrist1.stl"/>
+        <!-- <mesh filename="package://ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5/collision/wrist1.stl"/> -->
+        <mesh filename="file:///home/xiaoyu/demo01_ocs2_ws/src/ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5/collision/wrist1.stl"/>  
       </geometry>
     </collision>
     <inertial>
@@ -506,7 +515,8 @@
     <collision>
       <origin rpy="0 0 0" xyz="0 0 -0.095"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5/collision/wrist2.stl"/>
+        <!-- <mesh filename="package://ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5/collision/wrist2.stl"/> -->
+        <mesh filename="file:///home/xiaoyu/demo01_ocs2_ws/src/ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5/collision/wrist2.stl"/>  
       </geometry>
     </collision>
     <inertial>
@@ -528,7 +538,8 @@
     <collision>
       <origin rpy="1.5707963267948966 0 0" xyz="0 0 -0.0818"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5/collision/wrist3.stl"/>
+        <!-- <mesh filename="package://ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5/collision/wrist3.stl"/> -->
+        <mesh filename="file:///home/xiaoyu/demo01_ocs2_ws/src/ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5/collision/wrist3.stl"/>  
       </geometry>
     </collision>
     <inertial>
